@@ -1,0 +1,130 @@
+.App {
+    text-align: center;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+ .flex-container{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #20B067;
+ }
+ 
+ /* left image contents start here */ 
+
+ .img-container{
+    height: 600px;
+    width: 600px;
+ }
+
+ .overlay{
+    position: absolute; /* Sit on top of the page content */
+    width: 600px; /* Full width (cover the whole page) */
+    height: 600px; /* Full height (cover the whole page) */
+    z-index: 2;
+    background: linear-gradient(148deg, rgba(125,153,219,0.8130602582830007) 0%, rgba(107,169,179,0.8102591378348214) 53%, rgba(32,142,79,0.44611347957151615) 100%);
+    display: flex;
+    justify-content: center;
+    
+ }
+ .img-text{
+    color: #fff;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.form-img{
+    width: 600px;
+    height: 100%;  
+ }
+ /* left image contents ends here */ 
+
+
+  /* Right Form contents start here */ 
+ .form-container{
+    height: 600px;
+    width: 600px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .form-content{
+    display: block;
+    border-radius: 0.2rem;
+    height: 80%;
+    width: 80%;
+    background-color: #fcfcfc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.forms{
+    margin: 20px;
+    // display: flex !important;
+    // flex-direction: column;
+}
+
+ .form-input{
+    justify-content: center;
+  margin: 0 auto;
+  width: 200px;
+  /* Form outline */
+  border-radius: 0.2rem;
+  width: 80%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #F4F4F4;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }
+
+input:focus {
+    border: 2px solid #20B067;
+    outline:#20B067;
+}
+ .label{
+    align-self: flex-start;
+    font-size: 15px;
+    float: left;
+    color: #212529;
+ }
+
+ .button{
+    width: 50%; 
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 0.2rem;
+    background: linear-gradient(148deg, rgba(125,153,219,0.8130602582830007) 0%, rgba(107,169,179,0.8102591378348214) 53%, rgba(32,142,79,0.44611347957151615) 100%);
+}
+
+.form-signin{
+    font-size: 10px;
+}
+
+.form-header{
+    margin-top: 10px;
+    color: #20B067;
+    font-size: 20px;
+}
+ /* Right Form contents ends here */ 
+
+  
+
+
+  
